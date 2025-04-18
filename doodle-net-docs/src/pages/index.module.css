@@ -1,0 +1,26 @@
+.background {
+  background-color: var(--ifm-background-surface-color);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--ifm-background-surface-color);
+
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  width: 500px;
+  max-width: 90%;
+}
