@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # 🧠 Building a QuickDraw CNN
-Welcome to my machine learning learning journey! This site documents my beginner-friendly (albeit slightly chaotic) path toward building a Convolutional Neural Network (CNN) to classify doodles using the [Quick, Draw!](https://quickdraw.withgoogle.com/data) dataset. Playing the game at least once is a required prerequisite for this project!
+Welcome to my machine learning journey! This site documents my beginner-friendly (albeit slightly chaotic) path toward building a Convolutional Neural Network (CNN) to classify doodles using the [Quick, Draw!](https://quickdraw.withgoogle.com/data) dataset. Playing the game at least once is a required prerequisite for this project!
 
 
 You know how when you find a recipe on the internet and it takes you 20 minutes to scroll through the author's life story before you get to the actual recipe? Boy, do I have bad news for you! **JK** I’m not going to make you scroll through my life story, but I do want to share some of the resources that helped me along the way.
