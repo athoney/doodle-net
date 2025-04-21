@@ -2,10 +2,9 @@
 sidebar_position: 1
 ---
 
-# 💾 Get the Data
+# Get the Data
 
-
-### Download the Quick, Draw! Dataset
+### 💾 Download the Quick, Draw! Dataset
 - Head over to [The Quick, Draw! Github](https://github.com/googlecreativelab/quickdraw-dataset), realize you are in the wrong place, and then go to the [Cloud Storage](https://console.cloud.google.com/storage/browser/quickdraw_dataset/full/numpy_bitmap;tab=objects?prefix=&forceOnObjectsSortingFiltering=false) bucket
 - The authors provide the files in multiple formats, but the NumPy format is the most convenient for this project. (They look like the 28x28 MNIST digits)
 - Download the files you want to use. I recommend starting with a few classes (e.g., `cat`, `dog`, `car`, `house`, etc.) to get a feel for the data. You can always add more later
@@ -50,8 +49,8 @@ Before we move on, let's import everything we need for this project:
 <details>
   <summary>Show code</summary>
 <pre><code class="language-python">
-```
-python
+
+```python
 %pip install tqdm
 %pip install torch
 %pip install numpy
