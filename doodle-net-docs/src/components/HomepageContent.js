@@ -5,7 +5,7 @@ import styles from './HomepageContent.module.css';
 
 export default function HomepageContent() {
   const { colorMode } = useColorMode();
-  const logoSrc = colorMode === 'dark' ? useBaseUrl('/img/doodlenet-dark.png') : useBaseUrl('/img/doodlenet-light.png');
+  const logoSrc = colorMode === 'dark' ? useBaseUrl('static/img/doodlenet-dark.png') : useBaseUrl('static/img/doodlenet-light.png');
   const dark_class = styles.link;
 
   return (
