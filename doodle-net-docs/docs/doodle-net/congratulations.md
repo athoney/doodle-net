@@ -4,18 +4,18 @@ sidebar_position: 6
 
 # Congratulations!
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+🎉 You've built and trained a CNN to classify doodles from the Quick, Draw! dataset. Great work!
 
-Docusaurus has **much more to offer**!
+🧠 You learned how to:
+- Load and preprocess data
+- Build and train a CNN
+- Evaluate model performance
+- Visualize learning curves and predictions
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+---
 
-## What's next?
+## 📥 Download the Full Notebook
 
-- Read the [official documentation](https://docusaurus.io/)
-- Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
-- Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+Want to revisit or share this work? Grab the complete notebook here:
+
+[🚀 Open in Colab](https://drive.google.com/file/d/1ZR5-Ig5uVKpKNvC64UuJciYwOHB2uP5-/view?usp=sharing)
