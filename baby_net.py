@@ -70,6 +70,20 @@ A0, y = prepare_data()
 y_hat = feed_forward(A0)
 print(y_hat)
 
+#compute cost
+def cost(y_hat, y):
+    #m * n^L
+    losses = - ((y.T* np.log(y_hat.T)) + (1-y.T)*np.log(1-y_hat.T))
+
+    m = y_hat.reshape(-1).shape[0]
+
+    summed_losses = (1/m) * np.sum(losses, axis=1)
+
+    # only necessary when output layer > 1 node
+    return np.sum(summed_losses)
+
+print(cost(y_hat, y))
+
 
 
 
